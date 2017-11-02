@@ -1,0 +1,1 @@
+var exp = monster_level * 0.05;
