@@ -103,8 +103,8 @@ $(document).ready(function(){
         }
         else {
             if (e.keyCode == 78) {
-                console.log("Monster dealt: "+damage+" damage!");
-                base_hp = base_hp - damage;
+                console.log("Monster dealt: "+monster_base_atk+" damage!");
+                base_hp = base_hp - monster_base_atk;
             }
             else if (e.keyCode == 38) {
                 level_up();
