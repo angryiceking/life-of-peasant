@@ -1,0 +1,1 @@
+var castle = new Image();
